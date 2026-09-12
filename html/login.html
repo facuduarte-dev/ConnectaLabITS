@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevConnect | Iniciar sesión</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+    <main class="login">
+
+        <section class="titulo">
+
+            <h1>
+                Bienvenido a
+                Dev<span>Connect</span>
+            </h1>
+
+            <p>
+                Inicia sesión o crea tu cuenta para comenzar
+            </p>
+
+        </section>
+
+
+        <section class="contenedor-login">
+
+            <!-- login -->
+
+            <div class="card login-card">
+
+                <div class="icono-principal">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+
+                <h2>Iniciar sesión</h2>
+
+                <p>
+                    Accede a tu cuenta para continuar
+                </p>
+
+                <form>
+
+                    <div class="campo">
+
+                        <label>Correo electrónico</label>
+
+                        <div class="input-icon">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                placeholder="tu@email.com">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label>Contraseña</label>
+
+                        <div class="input-icon">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input
+                                type="password"
+                                placeholder="********">
+
+                            <i class="fa-regular fa-eye-slash ojo"></i>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="extras">
+
+                        <label>
+
+                            <input type="checkbox">
+
+                            Recordarme
+
+                        </label>
+
+                        <a href="../html/index.html">
+                            ¿Olvidaste tu contraseña?
+                        </a>
+
+                    </div>
+
+                    <button >
+
+                        Iniciar sesión
+
+                    </button>
+
+                </form>
+
+
+                <div class="separador">
+
+                    <span>O continúa con</span>
+
+                </div>
+
+
+                <div class="social">
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-google"></i>
+
+                        Google
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <!-- registrño -->
+
+            <div class="card registro-card">
+
+                <div class="icono-principal">
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                </div>
+
+                <h2>Crear cuenta< /h2>
+
+                <p>
+
+                    Únete a DevConnect y consigue más oportunidades
+
+                </p>
+
+                <form action="../php/register.php" method="POST">
+
+                    <div class="campo">
+
+                        <label>Nombre completo</label>
+
+                        <div class="input-icon">
+
+                            <i class="fa-regular fa-user"></i>
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Tu nombre completo">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label>Correo electrónico</label>
+
+                        <div class="input-icon">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="tu@email.com">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label>Contraseña</label>
+
+                        <div class="input-icon">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="********">
+
+                            <i class="fa-regular fa-eye-slash ojo"></i>
+
+                        </div>
+
+                        <small>
+
+                            <i class="fa-regular fa-circle-check"></i>
+
+                            Mínimo 8 caracteres
+
+                        </small>
+
+                    </div>
+
+
+                    <button type="submit">
+
+                        Registrarse
+
+                    </button>
+
+                </form>
+
+
+                <div class="separador">
+
+                    <span>O continúa con</span>
+
+                </div>
+
+
+                <div class="social">
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-google"></i>
+
+                        Google
+
+                    </a>
+
+                    <a href="#">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <p class="seguridad">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
+            Tu información está segura con nosotros.
+
+        </p>
+
+    </main>
+
+</body>
+
+</html>  
