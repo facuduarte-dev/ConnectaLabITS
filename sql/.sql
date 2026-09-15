@@ -1,6 +1,6 @@
-CREATE DATABASE DevConnect;
+CREATE DATABASE DevConnectITS;
 
-USE DevConnect;
+USE DevConnectITS;
 
 CREATE TABLE usuarios
 (
@@ -10,8 +10,3 @@ CREATE TABLE usuarios
     password VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-VARCHAR(80) NOT NULL,
-    email VARCHAR(150)  NOT NULL UNIQUE,
-    passwo
-    .
